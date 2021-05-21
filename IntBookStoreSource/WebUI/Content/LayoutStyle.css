@@ -1,0 +1,92 @@
+﻿body {
+    margin: 0px;
+    font-size: 18px;
+    background-color: burlywood;
+}
+
+.black-row {
+    background-color: black;
+}
+
+#footer {
+    clear: both;
+    position: relative;
+    height: 40px;
+    background-color: black;
+    text-align: center;
+    color: whitesmoke;
+    font-weight: 100;
+    font-size: 17px;
+}
+
+#heading {
+    background-color: black;
+    margin: 0;
+    text-align: center;
+}
+
+    #heading p {
+        font-size: 40px;
+        line-height: 100px;
+        color: whitesmoke;
+        display: inline;
+        padding-left: 50px;
+    }
+
+#headingImg {
+    height: 70%;
+    width: auto;
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    bottom: 10px;
+}
+
+.Main {
+    width: 80%;
+    height: 100% !important;
+    min-height: 520px;
+    margin: 15px auto;
+    background-color: ghostwhite;
+}
+
+.Main-body {
+    min-height: 100vh;
+    border-right: 1px solid black;
+    text-align: justify;
+    padding-top: 20px;
+    white-space: normal;
+    height: 100%;
+}
+
+@media (max-width:768px) {
+    #heading p {
+        font-size: 31px;
+        float: none;
+        line-height: 100px;
+        margin-left: 30px;
+    }
+
+    #footer p {
+        font-size: 13px;
+        margin: 0 auto;
+    }
+
+    .inputWithLabel {
+        margin: 0;
+    }
+
+    #inputForm {
+        margin: 0 auto;
+    }
+}
+
+@media (min-width: 992px) {
+    #heading p {
+        line-height: 100px;
+    }
+
+    .Main-body li {
+        width: 100%;
+    }
+}
